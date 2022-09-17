@@ -86,5 +86,10 @@ img{
    box-shadow: 6px 6px rgb(65, 63, 63);
    background: #73AD21;
 }
+.strike{
+   text-decoration: line-through;
+   text-decoration-color: red;
+}
+
  /* background: rgb(240,187,29); */
    /* background: linear-gradient(0deg, rgba(240,187,29,1) 0%, rgba(235,86,209,1) 100%); */
