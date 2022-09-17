@@ -2,8 +2,8 @@
 <html lang="ru">
     <head>
         <meta charset ="utf-8"> 
-        <link rel="stylesheet" href="debug.css">
-         <title> this is WebPage</title>
+        <link rel="stylesheet" href="style.css">
+         <title> This is WebPage</title>
     </head>
     <body>
 
@@ -18,6 +18,9 @@
                 <li>
                     <a href="/"> Почему я кот?</a>
                 </li>
+                <li>
+                    <a href="/"> В чем секрет кота Бориса и почему я его уважаю?</a>
+                </li>
                </ul> 
 
             </nav>
@@ -25,63 +28,81 @@
         <main>
             <article>
                 <h2>Хто Я?</h2>
-                 Я - <del>оранжевый</del> рыжий  <strong>кот</strong> . 
-                 <p><img src="res/funny_cat.png" width="400" height="300"></p>
+                
+                <p>
+                    <img src="res/funny_cat.png" width="400" height="300"> 
+                    <br>
+                    Я - <del>оранжевый</del> рыжий  <strong>кот</strong>. 
+                </p>
+                
+                
             </article>
             <section>
                  <h2> Мои увлечения</h2>
-                 <ul>
+                 <ul class="emoji-ul">
                     <li>
                         Я <em>люблю</em>  вкусно кушать
                     </li>
                     <li>
-                        Я  <em>очень не люблю</em>  видеть пустую миску 
+                        Я  <em>очень не люблю</em>  видеть пустую миску &#x1F63E
                     </li>
                     <li>
                         Я  <em>без ума</em>  от сна 
                     </li>
                  </ul>
+                
                 </section>
+               
                 <aside>
                     <h3> Топ моих любимых блюд</h3>
-                    <ol>
+                    <ol class="emoji-ol" >
                         <li>
-                            Рыба
+                        Рыба
                         </li>
                         <li>
-                            Мышата
+                        Мышата
                         </li>
                         <li>
-                            Молочко
+                         Молочко
                         </li>
                     </ol>
-
+                    <div class ="picturesOfCats">
+                        <img src="res/cat_fish.jpg" width="400" height="400">
+                        <img src="res/cat_food.jpg" width="600" height="400">
+                    </div>
+                    
                 </aside>
                 
-                <h3> мой алгоритм существования на сегодня</h3>
-                <pre>
-                 <code>
-                while(is_alive)
-                {
-                    Sleep();
-                    auto type = Type::yummy;
-                    auto food_for_me = human->FeedMaster(type);
-                    Feed(food_for_me);
-                    Sleep();
-                }
-                 </code>
-                </pre>
-            
+                <h3> Мой алгоритм существования на сегодня</h3>
+                <div class ="formatted">
+                    <pre>
+                        <code>
+           while(is_alive)
+           {
+               Sleep();
+               auto type = Type::yummy;
+               auto food_for_me = human->FeedMaster(type);
+               Feed(food_for_me);
+               Sleep();
+           }
+                        </code>
+                       
+                       </pre>
+                </div>
+
+                <h3> Я при исполнении алгоритма</h3>
+                <p><img src="res/cat_sleep.jpg" width="400" height="300"></p>
                 <h3>Слова поменявшие мое кошачее мировозрение</h3>
                 <q>
                     Жизнь без молочка как охота без мышей 
+                    <sub>сосед Борис </sub>
                 </q>
-                <sub> сосед Борис</sub>
-
+                
+                <h4> Фотография Бориса, разминающегося  перед забегом за валерьяночкой </h4>
+                <p><img src="res/boris.jpg" width="400" height="600"></p>
                 <h3>Рисунок меня охотящегося </h3>
-                <pre>
-                    
-
+                <pre class="formatted">
+                
                     xxxxx
                     x    xx
                     x     xx                  xxxxxxxx
