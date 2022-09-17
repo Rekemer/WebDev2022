@@ -2,8 +2,8 @@
 <html lang="ru">
     <head>
         <meta charset ="utf-8"> 
-        <link rel="stylesheet" href="debug.css">
-         <title> this is WebPage</title>
+        <link rel="stylesheet" href="style.css">
+         <title> This is WebPage</title>
     </head>
     <body>
 
@@ -18,6 +18,9 @@
                 <li>
                     <a href="/"> Почему я кот?</a>
                 </li>
+                <li>
+                    <a href="/"> В чем секрет кота Бориса и почему я его уважаю?</a>
+                </li>
                </ul> 
 
             </nav>
@@ -25,12 +28,12 @@
         <main>
             <article>
                 <h2>Хто Я?</h2>
-                 Я - <del>оранжевый</del> рыжий  <strong>кот</strong> . 
+                 Я - <del>оранжевый</del> рыжий  <strong>кот</strong>. 
                  <p><img src="res/funny_cat.png" width="400" height="300"></p>
             </article>
             <section>
                  <h2> Мои увлечения</h2>
-                 <ul>
+                 <ul class="emoji-ul">
                     <li>
                         Я <em>люблю</em>  вкусно кушать
                     </li>
@@ -41,10 +44,11 @@
                         Я  <em>без ума</em>  от сна 
                     </li>
                  </ul>
+                
                 </section>
                 <aside>
                     <h3> Топ моих любимых блюд</h3>
-                    <ol>
+                    <ol class = "emoji-ol">
                         <li>
                             Рыба
                         </li>
@@ -55,21 +59,23 @@
                             Молочко
                         </li>
                     </ol>
-
+                    <p><img src="res/cat_fish.jpg" width="400" height="400"></p>
+                    <p><img src="res/cat_food.jpg" width="600" height="400"></p>
                 </aside>
                 
-                <h3> мой алгоритм существования на сегодня</h3>
+                <h3> Мой алгоритм существования на сегодня</h3>
                 <pre>
                  <code>
-                while(is_alive)
-                {
-                    Sleep();
-                    auto type = Type::yummy;
-                    auto food_for_me = human->FeedMaster(type);
-                    Feed(food_for_me);
-                    Sleep();
-                }
+    while(is_alive)
+    {
+        Sleep();
+        auto type = Type::yummy;
+        auto food_for_me = human->FeedMaster(type);
+        Feed(food_for_me);
+        Sleep();
+    }
                  </code>
+                 <p><img src="res/cat_sleep.jpg" width="400" height="300"></p>
                 </pre>
             
                 <h3>Слова поменявшие мое кошачее мировозрение</h3>
@@ -77,7 +83,7 @@
                     Жизнь без молочка как охота без мышей 
                 </q>
                 <sub> сосед Борис</sub>
-
+                <p><img src="res/boris.jpg" width="400" height="600"></p>
                 <h3>Рисунок меня охотящегося </h3>
                 <pre>
                     
