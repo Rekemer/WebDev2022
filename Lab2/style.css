@@ -48,11 +48,19 @@
    padding-left: 0;
  }
 
-.picturesOfCats{
+.picturesOfCatsRow{
    display: flex;
    flex-direction: row;
    justify-content: center;
    gap: 10vh;
+}
+.picturesOfCatsColumn{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   column-gap: 10vh;
+   row-gap: 2vh;
+ 
 }
 h1,h2,h3,h4,q{
    text-align: center;
