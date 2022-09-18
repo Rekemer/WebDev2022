@@ -97,3 +97,29 @@ img{
    text-decoration: line-through;
    text-decoration-color: red;
 }
+.emphasize{
+   text-decoration: underline;
+   text-decoration-color: rgb(46, 45, 45);
+   font-style:italic
+}
+.text{
+
+   text-align: left;
+   line-height: 1.54em ;
+   font-size: large;
+   display: block;
+   margin-block-start: 1em;
+   margin-block-end: 1em;
+   margin-inline-start: 5em;
+   margin-inline-end: 5em;
+   
+   text-indent: 2em;
+   text-shadow:  .2em .2em .3em rgb(129, 128, 128);
+}
+.formattedHeader{
+   letter-spacing: 1.2.vw;
+   word-spacing: 1.2.vw;
+}
+.footerPicture{
+   margin: 3vh;
+}
