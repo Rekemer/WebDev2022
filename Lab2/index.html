@@ -6,26 +6,42 @@
          <title> Cat Page</title>
     </head>
     <body>
-
-        <header>
-            <h1>Приветствую, позвольте представиться! </h1>
-             <!-- TO DO: Add more funny pages!-->
-            <nav>
-               <ul>
-                <li>
-                    <a href="/pages/LanguagePage.html"> Почему я говорю на человеческом?</a>
-                   
-                </li>
-                <li>
-                    <a href="/"> Почему я кот?</a>
-                </li>
-                <li>
-                    <a href="/"> В чем секрет кота Бориса и почему я его уважаю?</a>
-                </li>
-               </ul> 
-
-            </nav>
+        
+        <header class = "mainHeader">
+            <div class="centeredVertically">  <img id = "headerPicture" src="res/funny_cat_ok.png" width="65" height="50" alt=""></div>
+            <div> <h1> Сайт рыжего кота</h1></div>
+           <div class = "centeredVertically" > <span id = "languageOption"> Язык</span> </div>
         </header>
+        
+        <br>
+        <br>
+        <br>
+        <br>
+        <header>
+            <h1 >Приветствую, позвольте представиться! </h1>
+        </header>  
+            <nav class = "borderMenu">
+                <header>
+                    <h1>
+                        Для моих красотуль
+                    </h1>
+                </header>
+                <ul class=>
+                    <li>
+                        <a href="/pages/LanguagePage.html"> Почему я говорю на человеческом?</a>
+                       
+                    </li>
+                    <li>
+                        <a href="/"> Почему я кот?</a>
+                    </li>
+                    <li>
+                        <a href="/"> В чем секрет кота Бориса и почему я его уважаю?</a>
+                    </li>
+                    <li>
+                       <a href="/"> Таблица принципов</a>
+                    </li>
+                 </ul>
+             </nav>    
         <main>
             <article>
                 <h2>Хто Я?</h2>
@@ -79,7 +95,7 @@
                 </aside>
                 
                 <h3> Мой алгоритм существования на сегодня</h3>
-                <div class ="formatted">
+                <div class ="centeredHorizontally">
                     <pre>
                         <code>
            while(is_alive)

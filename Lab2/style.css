@@ -1,6 +1,28 @@
  @import url('https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;1,300&display=swap');
+ .mainHeader{
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+   position: fixed;
+   background-color: #6e6d70;
+   z-index: 1;
+ }
+ #languageOption{
+   
+   font-style: large;
+   margin: 10px;
+   font-size: 1.5em;
+   font-weight: bold;
+
+ }
+ #headerPicture{
+   margin: 10px;
+   left: 2em;
+   border-radius: 50%;
+   border: 2px solid red;
+ }
  body { 
    font-family: Source Serif Pro, Zen Antique, Zen Antique Soft, san-serif;
    font-style:normal;
@@ -64,9 +86,21 @@
 h1,h2,h3,h4,q{
    text-align: center;
 }
-
-.formatted{
+.borderMenu{
+   
+   position: absolute;
+   left: 3%;
+   text-align: left;
+   order: -1;
+   
+}
+.centeredHorizontally{
    display: flex;
+   justify-content: center;
+}
+.centeredVertically{
+   display: flex;
+   flex-direction: column;
    justify-content: center;
 }
 sub {
