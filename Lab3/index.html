@@ -4,40 +4,93 @@
         <meta charset ="utf-8"> 
         <link rel="stylesheet" href="style.css">
          <title> Cat Page</title>
+        
     </head>
     <body>
-
-        <header>
-            <h1>Приветствую, позвольте представиться! </h1>
-             <!-- TO DO: Add more funny pages!-->
-            <nav>
-               <ul>
-                <li>
-                    <a href="/pages/LanguagePage.html"> Почему я говорю на человеческом?</a>
-                   
-                </li>
-                <li>
-                    <a href="/"> Почему я кот?</a>
-                </li>
-                <li>
-                    <a href="/"> В чем секрет кота Бориса и почему я его уважаю?</a>
-                </li>
-               </ul> 
-
-            </nav>
+        
+        <header class = "mainHeader">
+            <div class="centeredVertically">  <img id = "headerPicture" src="res/funny_cat_ok.png" width="65" height="50" alt=""></div>
+            <div> <h1> Сайт рыжего кота</h1></div>
+           <div class = "centeredVertically" > <span id = "languageOption"> Язык</span> </div>
         </header>
+        
+        <br>
+        <br>
+        <br>
+        <br>
+       
+             
         <main>
-            <article>
-                <h2>Хто Я?</h2>
-                
-                <p>
-                    <img src="res/funny_cat.png" width="400" height="300"> 
-                    <br>
-                    Я - <span class = "strike" >оранжевый</span> рыжий  <strong>кот</strong>. 
-                </p>
-                
-                
-            </article>
+            <header>
+                <h1 >Приветствую, позвольте представиться! </h1>
+            </header>  
+
+            <div class = "container">
+                <div class = "box">
+                    <nav class = "borderMenu">
+                        <header>
+                            <h2>
+                                Дополнительно обо мне для моих красотуль
+                            </h2>
+                        </header>
+                        <ul >
+                            <li>
+                                <a href="/pages/LanguagePage.html"> Почему я говорю на человеческом?</a>
+                               
+                            </li>
+                            <li>
+                                <a href="/"> Почему я кот?</a>
+                            </li>
+                            <li>
+                                <a href="/"> В чем секрет кота Бориса и почему я его уважаю?</a>
+                            </li>
+                            <li>
+                               <a href="/"> Таблица моих любимых звуков первых космических</a>
+                            </li>
+                            
+                         </ul>
+                     </nav>  
+                </div>
+                <div class = "centerBox">
+                    <article>
+                        <h2>Хто Я?</h2>
+                        
+                        <p>
+                            <img src="res/funny_cat.png" width="400" height="300"> 
+                            <br>
+                            Я - <span class = "strike" >оранжевый</span> рыжий  <strong>кот</strong>. 
+                        </p>
+                        
+                    </article>
+                </div>
+                <div class = "box">
+                    <nav class = "borderMenu">
+                        <header>
+                            <h2>
+                                Список моих кошачих приключений
+                            </h2>
+                        </header>
+                        <ul >
+                            <li>
+                                <a href="/"> Как я урвал рыбку у того самого Турка</a>
+                               
+                            </li>
+                            <li>
+                                <a href="/"> Глубокая социальная проблема кошачего общества </a>
+                            </li>
+                            <li>
+                                <a href="/"> Кошки как смысл жизни первых космических</a>
+                            </li>
+                            <li>
+                               <a href="/"> Возмездие рыжего кота</a>
+                            </li>
+                         </ul>
+                     </nav>  
+                </div>
+
+            </div>
+           
+           
             <section>
                  <h2> Мои увлечения</h2>
                  <ul class="emoji-ul">
@@ -54,7 +107,7 @@
                 
                 </section>
                
-                <aside>
+                <section>
                     <h3> Топ моих любимых блюд</h3>
                     <ol class="emoji-ol" >
                         <li>
@@ -76,10 +129,10 @@
                         
                     </div>
                     
-                </aside>
+                </section>
                 
                 <h3> Мой алгоритм существования на сегодня</h3>
-                <div class ="formatted">
+                <div class ="centeredHorizontally">
                     <pre>
                         <code>
            while(is_alive)
@@ -106,7 +159,7 @@
                 <h4> Фотография Бориса, разминающегося  перед забегом за валерьяночкой </h4>
                 <p><img src="res/boris.png" width="400" height="600"></p>
                 <h3>Рисунок меня охотящегося </h3>
-                <pre class="formatted">
+                <pre class="centeredHorizontally">
                 
                     xxxxx
                     x    xx

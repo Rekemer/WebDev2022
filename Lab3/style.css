@@ -1,6 +1,30 @@
  @import url('https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;1,300&display=swap');
+ .mainHeader{
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+   position: fixed;
+   background-color: #6e6d70;
+   z-index: 1;
+ }
+ #languageOption{
+   
+   font-style: large;
+   margin-right: 5vh;
+   font-size: 1.5em;
+   font-weight: bold;
+
+ }
+ #headerPicture{
+   margin-left: 5vh;
+   left: 2em;
+   border-radius: 50%;
+   border-width: 2px;
+   border-style: solid;
+   border-color:  #61188b;
+ }
  body { 
    font-family: Source Serif Pro, Zen Antique, Zen Antique Soft, san-serif;
    font-style:normal;
@@ -40,6 +64,7 @@
  .emoji-ul {
    list-style-position: inside;
    list-style-type: emoji_ul;
+   text-align: center;
  }
  .emoji-ol {
    list-style-position: inside;
@@ -53,6 +78,90 @@
    justify-content: center;
    gap: 10vh;
 }
+.borderMenu,ul{
+   list-style-type:none;
+   text-align: left;
+   padding: 0;
+}
+.container{
+   width: 100%;
+   display:  flex;
+   justify-content: center;
+   gap: 20vh;
+}
+
+.borderMenu{
+   left: 3%;
+   text-align: center;
+}
+
+.box {
+   flex: 1;
+}
+.centerBox{
+  
+   flex: 2;
+}
+
+
+@media (max-width: 90em){
+   .picturesOfCatsRow{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      column-gap: 10vh;
+      row-gap: 2vh;
+   }
+
+   .container{
+      flex-direction: column;
+      gap: 1.5vh;
+   }
+   .borderMenu{
+      flex: 1;
+      order: 1;
+   }
+   .borderMenu, ul{
+      text-align: center;
+   }
+ 
+   .centerBox{
+      order: 2;
+   }
+
+}
+
+@media (max-device-width: 90em){
+   .picturesOfCatsRow{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      column-gap: 10vh;
+      row-gap: 2vh;
+   }
+
+   .container{
+      flex-direction: column;
+      gap: 1.5vh;
+   }
+   .borderMenu{
+      flex: 1;
+      order: 1;
+   }
+   .borderMenu, ul{
+      text-align: center;
+   }
+ 
+   .centerBox{
+      order: 2;
+   }
+
+}
+
+
+
 .picturesOfCatsColumn{
    display: flex;
    flex-direction: column;
@@ -65,8 +174,13 @@ h1,h2,h3,h4,q{
    text-align: center;
 }
 
-.formatted{
+.centeredHorizontally{
    display: flex;
+   justify-content: center;
+}
+.centeredVertically{
+   display: flex;
+   flex-direction: column;
    justify-content: center;
 }
 sub {
@@ -75,11 +189,9 @@ sub {
 q {
    display: block;
 }
-nav{
-   text-align: center;
-}
-nav,ul{
-   list-style-type:none
+
+.borderMenu, li{
+   margin: 1.3em;
 }
 p,section{
    text-align: center;
@@ -91,7 +203,8 @@ aside, emoji-ol{
 img{
    border-radius: 50px;
    box-shadow: 6px 6px rgb(65, 63, 63);
-
+   max-width: 100%;
+   margin-bottom: 1.1vh;
 }
 .strike{
    text-decoration: line-through;
