@@ -322,6 +322,7 @@ table {
 			padding-left: 50%;
 			border: none;
 			border-bottom: 1px solid #eee;
+         font-size: 3vh;
 		}
 
 		 td:before {
