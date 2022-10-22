@@ -396,6 +396,30 @@ table {
    border-radius: 4px;
 }
 
+#input{
+   text-align: center;
+   border: none;
+   background-color: rgba(red, green, blue, 0.5);
+}
+.iconButton{
+   display: flex;
+   align-content: center;
+}
+.iconButton:hover{
+   background-color: #828083;
+}
+.iconButton:active{
+   background-color: #474547;
+}
+
+.iconButton , .editButton{
+   align-self: center;
+   background-color: #bfbec0;
+   
+   margin: 0;
+   border-radius: 20px;
+   box-shadow: none;
+}
 @media (max-width: 90em) {
    .table {
       flex-direction: column;
@@ -403,6 +427,11 @@ table {
    .tableCell{
       margin: 4vh;
       margin-inline: 10vw; 
+   }
+
+   .iconButton
+   {
+      margin-top: 5vh;
    }
 }
 
