@@ -234,7 +234,7 @@ img{
    word-spacing: 1.2.vw;
 }
 .footerPicture{
-   padding: 3vh;
+   margin: 3vh;
 }
 
 table { 
@@ -246,7 +246,7 @@ table {
  }
 
  th { 
-   background: #333; 
+   background: rgb(83, 83, 83); 
    color: white; 
    font-weight: bold;  
  }
@@ -358,6 +358,53 @@ table {
 		td:nth-of-type(3):before { content: "Платформа"; }
 		td:nth-of-type(4):before { content: "Хобби"; }
 		td:nth-of-type(5):before { content: "Любимая игра"; }
+
+      /* td:nth-of-type(1):before { content: "1"; }
+		td:nth-of-type(2):before { content: "2"; }
+		td:nth-of-type(3):before { content: "3"; }
+		td:nth-of-type(4):before { content: "4"; }
+		td:nth-of-type(5):before { content: "5"; }
+		td:nth-of-type(6):before { content: "6"; }
+		td:nth-of-type(7):before { content: "7"; } */
 	}
 
+.table {
+   margin:5vh ;
+   display: flex;
+   background-color: #3f3049;
+   margin-inline: 25vh;
+   border-radius: 40px;
+   gap:7vh;
+}
+.tableCell{
+   display: flex;
+   row-gap: 2vh;
+   flex-direction: column;
+   background-color: #23172b;
+   flex-basis:3vw;
+   text-align: center;
+   border-radius: 10px;
+   padding-bottom: 1.2vw;
+}
+
+.tableHeaderCell{
+   font-size: large;
+   background-color: #61188b;
+   margin-top: 6px;
+   padding: 4px;
+  
+   border-radius: 4px;
+}
+
+@media (max-width: 90em) {
+   .table {
+      flex-direction: column;
+   }
+   .tableCell{
+      margin: 4vh;
+      margin-inline: 10vw; 
+   }
+}
+
+  
     
