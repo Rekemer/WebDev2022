@@ -396,11 +396,7 @@ table {
    border-radius: 4px;
 }
 
-#input{
-   text-align: center;
-   border: none;
-   background-color: rgba(red, green, blue, 0.5);
-}
+
 .iconButton{
    display: flex;
    align-content: center;
@@ -412,7 +408,7 @@ table {
    background-color: #474547;
 }
 
-.iconButton , .editButton{
+.iconButton , .editClick{
    align-self: center;
    background-color: #bfbec0;
    
@@ -420,6 +416,20 @@ table {
    border-radius: 20px;
    box-shadow: none;
 }
+.editButton {
+   background-color: #23172b;
+   color: white;
+   border-radius: 20px;
+   text-align: center;
+   border: none;
+   background-color: none;
+   width: fit-content;
+   
+}
+.editButton:hover{
+   border: 1px solid rgb(255, 255, 255);
+}
+
 @media (max-width: 90em) {
    .table {
       flex-direction: column;
