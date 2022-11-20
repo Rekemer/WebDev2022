@@ -444,6 +444,36 @@ table {
       margin-top: 5vh;
    }
 }
+/* div {
+    border-radius:2px ;
+   border-style:solid;
+   border-color: red; 
+} */
+.toDoList{
+   width: 100%;
+   display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.toDoItem{
+   width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
 
-  
+
+.checkBoxElementToDoList {
+   flex: 1.5 1 0%;
+}
+.descElementToDoList {
+   
+}
+ .break {
+   width: 100%;
+   height: 0;
+   border-radius:2px ;
+   border-style:solid;
+   border-color: rgb(32, 155, 169);
+ }
     
