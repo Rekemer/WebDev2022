@@ -208,7 +208,7 @@ img{
 }
 .strike{
    text-decoration: line-through;
-   text-decoration-color: red;
+   text-decoration-color: rgb(255, 0, 0);
 }
 .emphasize{
    text-decoration: underline;
