@@ -487,3 +487,20 @@ table {
 
  }
     
+.containerForCar
+{
+    display: flex;
+    justify-content: center;
+}
+#demo
+{
+    margin-top: 5%;
+    width: 50%;
+   
+}
+
+.carousel-caption
+{
+   padding-bottom: 0px;
+   color: #ffffff;
+}
